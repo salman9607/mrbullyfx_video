@@ -1,0 +1,147 @@
+.fileUploaderSection {
+    -moz-user-select: none !important;
+    background-color: rgba(200, 200, 200, 0.12) !important;
+    background-image: url("../images/16.jpg") !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+    background-size: 12% auto !important;
+    border: 2px dotted #a5a5c7 !important;
+    color: #4e666c !important;
+    cursor: default !important;
+    font-size: 200% !important;
+    padding: 90px 0px 5px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+.uploads-panel-files {
+    cursor: default !important;
+    max-height: 290px !important;
+    min-height: 132px !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+.dragNdropFilesUploadedDiv {
+    border: 1px dashed #8f8f8f !important;
+    margin-bottom: 10px !important;
+    padding: 8px !important;
+}
+
+.dragNdropFilesUploadedDiv:last-child {
+    border: 1px dashed #8f8f8f !important;
+    margin-bottom: 2px !important;
+    padding: 8px !important;
+}
+
+.uploads-image-preview {
+    border-radius: 4px !important;
+    float: left !important;
+    height: 56px !important;
+    margin-right: 10px !important;
+    margin-top: 4px !important;
+    width: 56px !important;
+}
+
+.uploads-file-id {
+    font-weight: bold !important;
+}
+
+.uploads-file-size {
+    color: gray !important;
+    font-size: 90% !important;
+    font-style: italic !important;
+}
+
+.uploads-file-status-success {
+    color: #009900 !important;
+}
+
+.uploads-file-status, .uploads-file-status-default {
+    color: gray !important;
+}
+
+.uploads-file-status, .uploads-file-status-default {
+    color: gray !important;
+}
+
+.fileUploaderSection div.browser label {
+    background-color: #5a7bc2 !important;
+    border-radius: 2px !important;
+    box-shadow: 2px 2px 2px #888888 !important;
+    color: white !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-size: 50% !important;
+    font-weight: bold !important;
+    margin: 10px auto 0 !important;
+    overflow: hidden !important;
+    padding: 6px 12px !important;
+    position: relative !important;
+    width: auto !important;
+}
+
+.fileUploaderSection div.browser label:hover {
+    box-shadow: 0 0 !important;
+}
+
+.fileUploaderSection div.browser span {
+    cursor: pointer !important;
+}
+
+.fileUploaderSection div.browser input {
+    -moz-border-bottom-colors: none !important;
+    -moz-border-left-colors: none !important;
+    -moz-border-right-colors: none !important;
+    -moz-border-top-colors: none !important;
+    border-color: transparent !important;
+    border-image: none !important;
+    border-style: solid !important;
+    border-width: 0 0 100px 200px !important;
+    cursor: pointer !important;
+    direction: ltr !important;
+    margin: 0 !important;
+    opacity: 0 !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    transform: translate(-300px, 0px) scale(4) !important;
+}
+
+.rescentPhotosSection .panel-heading {
+    border-bottom: 0 none !important;
+    margin-bottom: 5px !important;
+    padding: 10px !important;
+}
+
+.rescentPhotosSection .panel-default {
+    background-color: transparent !important;
+    border-bottom: 0 none !important;
+    margin-bottom: 0 !important;
+}
+
+.rescentPhotosSection .panel-body {
+    border: 0 solid !important;
+    padding: 8px !important;
+}
+
+.dragNdropFilesUploadedDiv .sr-only {
+    color: #ffffff !important;
+    position: inherit !important;
+    text-shadow: 1px 1px 0.5px rgb(100, 100, 100) !important;
+}
+
+.dragNdropFilesUploadedDiv .progress active
+{
+    background-image: linear-gradient(to bottom, #e2e2e2 0px, #e1e1e1 100%) !important;
+}
+
+.dragNdropFilesUploadedDiv .progress-bar.in-progress
+{
+    background-image: linear-gradient(to bottom, #337ab7 0px, #286090 100%) !important;
+}
+
+.dragNdropFilesUploadedDiv .progress-bar.completed
+{
+    background-image: linear-gradient(to bottom, #32CD32 0px, #228B22 100%) !important;
+}
